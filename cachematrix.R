@@ -1,5 +1,6 @@
 ## Calculates the inverse of a matrix and caches the result for later use
 
+## returns an object containing the get, set, getinverse, and setinverse functions
 makeCacheMatrix <- function(x = matrix()) {
   i <- NULL
   set <- function(y) {
